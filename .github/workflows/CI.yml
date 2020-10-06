@@ -18,5 +18,5 @@ jobs:
       with:
         r-version: '3.5.3'
     
-    - name: Build and install new SDK
+    - name: Build new SDK
       run: R CMD build auto-generated-sdk
